@@ -69,6 +69,11 @@ figure {
     display: grid;
 }
 
+figure .food {
+    align-self: center;
+    justify-self: center;
+}
+
 /*  article */
 
 article {
@@ -172,18 +177,28 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
             "gallery-title gallery-title gallery-title"
-            "figure figure figure"
+            "fig1 fig2 fig3";
     }
 
     .gallery h3 {
         grid-area: gallery-title;
     }
 
-    .gallery figure {
-        grid-area: figure;
-        grid-column: 1/;
-        align-items: center;
-        justify-items: center;
+    section .fig1 {
+        grid-area: fig1;
+    }
+
+    section .fig2 {
+        grid-area: fig2;
+    }
+
+    section .fig3 {
+        grid-area: fig3;
+    }
+
+    figure .food {
+        align-self: center;
+        justify-self: center;
     }
 
     /*	article */
