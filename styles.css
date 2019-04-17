@@ -3,6 +3,22 @@ body {
     margin: 0;
 }
 
+.hero {
+    align-self: center;
+    justify-self: center;
+}
+
+.about-me {
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+article h1,
+.story-body {
+    align-self: center;
+    justify-self: center;
+}
 
 form {
     font-family: 'Bitter', serif;
@@ -56,6 +72,8 @@ main {
 
 .content {
     display: grid;
+    align-self: center;
+    justify-self: center;
 }
 
 
@@ -84,6 +102,8 @@ article {
 
 footer {
     display: grid;
+    align-self: center;
+    justify-self: center;
 }
 
 /*  layout */
@@ -204,5 +224,3 @@ footer {
     /*	article */
 
     /*	form */
-
-}
