@@ -58,6 +58,9 @@ textarea {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2/3;
     align-self: center;
     justify-self: center;
 }
@@ -98,10 +101,15 @@ article {
     display: grid;
 }
 
+/* formcontainer */
+
+
 /* footer */
 
 footer {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2/3;
     align-self: center;
     justify-self: center;
 }
