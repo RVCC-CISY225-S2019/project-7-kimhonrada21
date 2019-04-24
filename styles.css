@@ -8,6 +8,10 @@ body {
     justify-self: center;
 }
 
+img {
+    filter: grayscale(100%);
+}
+
 .about-me {
     text-align: center;
     align-self: center;
@@ -55,6 +59,12 @@ textarea {
     display: block;
     resize: none;
     overflow: auto;
+}
+
+button:hover {
+    transition-duration: 100s;
+    background: orange;
+    transform:  rotate(3600000deg) scale(3);
 }
 
 footer {
